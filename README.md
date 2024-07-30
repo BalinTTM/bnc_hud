@@ -1,4 +1,5 @@
 FiveM standalone HUD created by BalinT.
+With some nice slide in and out animations and modern and simple design.
 
 
 
