@@ -69,3 +69,14 @@ Citizen.CreateThread(function()
         Citizen.Wait(250)
     end
 end)
+
+-- Register a command wich disable or enable the HUD
+RegisterCommand("hud", function()
+    if visible then
+        close()
+        visible = false
+    else
+        open()
+        visible = true
+    end
+end)
