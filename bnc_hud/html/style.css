@@ -1,0 +1,80 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+html{
+	overflow: hidden;
+}
+
+#container {
+	user-select: none;
+	-moz-user-select: none;
+	
+	color: rgb(255, 255, 255);
+	position: absolute;
+	bottom: 1.0vh;
+	left: 15.5vw;
+	background-color: transparent;
+	height: auto;
+	width: 12.5vw;
+	overflow: visible;
+	justify-content: space-between;
+	overflow: visible;
+	background-color:transparent;
+}
+
+.box-container{
+	position: relative;
+	width: 100%;
+	float: left;
+	display: flex;
+	padding-top: 1px;
+	height: 2.1vh;
+	overflow: visible;
+}
+
+.box {
+	width: 120%;
+	padding-left: 6px;
+	padding-right: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.status-bar {
+	position: relative;
+	margin-left: 0.1vw;
+	float: left;
+	height: 30%;
+	width: 0%;	
+	transition: 0.4s;
+  	transform: translateY(110%);
+	transform: skewX(-45deg);
+	z-index: 9;
+	border: 0px solid rgb(0, 0, 0);
+	box-shadow: 3px 3px 10px 1px #000000;
+	border-radius: 20px;
+}
+
+#health{
+	background-color: #ff0000;
+}
+
+#armor {
+	background-color: #8d8d8d;
+}
+
+#hunger{
+	background-color: #ff9900; 
+}
+
+#thirst{
+	background-color: #0084ff; 
+}
+
+#stamina{
+	background-color: #b3ff00; 
+}
+
+#oxygen{
+	background-color: #99fcff; 
+}
