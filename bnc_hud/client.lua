@@ -17,13 +17,13 @@ local armor = 0
 local stamina = 0
 local oxygen = 0
 local isPause = false
-local ped =  PlayerPedId()
-local playerId = PlayerId()
 local sleep = 250
 
 -- Send data to HTML
 Citizen.CreateThread(function()
     while true do
+        local ped =  PlayerPedId()
+        local playerId = PlayerId()
         local shift = IsControlJustReleased(0, 21)
         local w = IsControlJustReleased(0, 31)
         local water = IsEntityInWater(ped)
